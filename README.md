@@ -1,3 +1,3 @@
 # glo-academy
 
-https://github.com/ancaiman/glo-academy.git
+https://ancaiman.github.io/glo-academy/
