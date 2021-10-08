@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.woff2"), url("../fonts/Roboto-Regular.woff");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Bold.woff2"), url("../fonts/Roboto-Bold.woff");
+    font-weight: 700;
+    font-style: bold;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *::after, *::before {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited, a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+body {
+    background-color: #621402;
+    color: #FFF;
+    font-family: "Roboto", serif;
+    font-style: normal;
+}
+
+.wrapper {
+    min-height: 100%;
+    overflow: hidden;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+}
+
+.header {
+    padding-top: 31px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    min-height: 33px;
+}
+
+.header-logo {
+    width: 33px;
+    height: 33px;
+    flex-shrink: 0;
+}
+
+.header-menu {
+    margin-left: 57px;
+}
+
+.menu-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu-item {
+    margin-right: 25px;
+}
+
+.menu-link {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFF;
+}
+
+.header-user {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.user-avatar {
+    width: 33px;
+    margin-left: 11px;
+    flex-shrink: 0;
+}
+
+.user-avatar img {
+    border-radius: 50%;
+}
