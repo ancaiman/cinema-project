@@ -1,3 +1,5 @@
-# glo-academy
+#Интенсив по верстке "Cайт кинотеатра"
 
-https://ancaiman.github.io/glo-academy/
+[Deploy](https://ancaiman.github.io/glo-academy/)
+
+![Template](./src/img/template.jpg)
