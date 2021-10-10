@@ -364,6 +364,24 @@ body {
     margin-right: 16px;
 }
 
+.seat-legend path.seat-free, 
+.seat-legend path.seat-free:hover {
+    fill: rgba(255, 255, 255, 0.2);
+    cursor: default;
+}
+
+.seat-legend path.seat-active, 
+.seat-legend path.seat-active:hover {
+    fill: #FE8E05;
+    cursor: default;
+}
+
+.seat-legend path.seat-booked, 
+.seat-legend path.seat-booked:hover {
+    fill: rgba(255, 255, 255, 0.05);
+    cursor: default;
+}
+
 .seat-text {
     opacity: 0.5;
 }
@@ -373,6 +391,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding-top: 62px;
+    padding-bottom: 158px;
 }
 
 .price-label {
