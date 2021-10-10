@@ -2,4 +2,4 @@
 
 [Deploy](https://ancaiman.github.io/glo-academy/)
 
-![Template](./src/img/template.jpg)
+![Template](template.jpg)
