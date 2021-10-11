@@ -88,8 +88,7 @@ body {
 .container {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 0 15px;
-    box-sizing: content-box;
+    width: 90%;
 }
 
 .header {
@@ -97,7 +96,7 @@ body {
     background: 
         linear-gradient(180deg, rgba(98, 20, 2, 0.31) 0%, #621402 85.62%), 
         url("../img/bg.jpg") no-repeat center top / cover;
-    min-height: 100vh;
+    padding-bottom: 60px;
 }
 
 .header-navbar {
@@ -153,6 +152,7 @@ body {
     margin-top: 90px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .film-title-english {
@@ -178,6 +178,7 @@ body {
 }
 
 .film-trailer {
+    width: 100px;
     margin: auto;
     transition: transform 0.5s;
 }
@@ -233,13 +234,17 @@ body {
 
 .session {
     margin-top: 59px;
-    padding-top: 46px;
-    padding-bottom: 64px;
+    padding: 46px 0px 64px 0px;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.session-date {
+    margin-bottom: 10px;
 }
 
 .session-label {
@@ -348,9 +353,9 @@ body {
 .seat-legend {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
-    max-width: 1024px;
-    margin: 0 auto;
+    margin: 0 5%;
     padding: 22px 0px 38px 0px;
 }
 
@@ -358,6 +363,10 @@ body {
     display: flex;
     align-items: center;
     margin-right: 30px;
+    max-width: 100%;
+}
+.seat-label svg {
+    width: 39px;
 }
 
 .seat-legend svg {
@@ -390,6 +399,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     padding-top: 62px;
     padding-bottom: 158px;
 }
